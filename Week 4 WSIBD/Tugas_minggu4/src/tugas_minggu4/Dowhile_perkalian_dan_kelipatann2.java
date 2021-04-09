@@ -30,11 +30,13 @@ public class Dowhile_perkalian_dan_kelipatann2 {
         System.out.println("                Do_While                         ");
         System.out.println("        Bilangan Kelipatan 2 (1-100)             ");
         System.out.println("=================================================");
+        
+        int j = 1;
 
         do {
-            System.out.print(i * 2 + " ");
-            i++;
-        } while (i <= 50);
+            System.out.print(j * 2 + " ");
+            j++;
+        } while (j <= 50);
 
 
     }
